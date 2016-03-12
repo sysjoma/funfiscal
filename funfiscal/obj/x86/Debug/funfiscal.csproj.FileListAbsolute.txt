@@ -1,0 +1,15 @@
+C:\Documents and Settings\usuario\Mis documentos\SharpDevelop Projects\funfiscal\funfiscal\bin\Debug\funfiscal.dll
+C:\Documents and Settings\usuario\Mis documentos\SharpDevelop Projects\funfiscal\funfiscal\bin\Debug\funfiscal.pdb
+C:\Documents and Settings\usuario\Mis documentos\SharpDevelop Projects\funfiscal\funfiscal\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\usuario\Mis documentos\SharpDevelop Projects\funfiscal\funfiscal\obj\x86\Debug\funfiscal.dll
+C:\Documents and Settings\usuario\Mis documentos\SharpDevelop Projects\funfiscal\funfiscal\obj\x86\Debug\funfiscal.pdb
+C:\Documents and Settings\juanche\Mis documentos\SharpDevelop Projects\funfiscal\funfiscal\bin\Debug\funfiscal.dll
+C:\Documents and Settings\juanche\Mis documentos\SharpDevelop Projects\funfiscal\funfiscal\bin\Debug\funfiscal.pdb
+C:\Documents and Settings\juanche\Mis documentos\SharpDevelop Projects\funfiscal\funfiscal\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\juanche\Mis documentos\SharpDevelop Projects\funfiscal\funfiscal\obj\x86\Debug\funfiscal.dll
+C:\Documents and Settings\juanche\Mis documentos\SharpDevelop Projects\funfiscal\funfiscal\obj\x86\Debug\funfiscal.pdb
+C:\Users\mysys\Documents\SharpDevelop Projects\funfiscal\funfiscal\bin\Debug\funfiscal.dll
+C:\Users\mysys\Documents\SharpDevelop Projects\funfiscal\funfiscal\bin\Debug\funfiscal.pdb
+C:\Users\mysys\Documents\SharpDevelop Projects\funfiscal\funfiscal\obj\x86\Debug\funfiscal.csprojResolveAssemblyReference.cache
+C:\Users\mysys\Documents\SharpDevelop Projects\funfiscal\funfiscal\obj\x86\Debug\funfiscal.dll
+C:\Users\mysys\Documents\SharpDevelop Projects\funfiscal\funfiscal\obj\x86\Debug\funfiscal.pdb
