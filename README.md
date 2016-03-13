@@ -11,3 +11,55 @@ Genera lo siguientes documentos:
 Cuenta con una función para capturar los datos del reporte Z.
 
 Lenguaje: C# .Net framework 4.0
+
+Desarrollado inicialmente para el mercado Venezolano, además ha sido probado satisfactoriamente en impresoras fiscales en Panamá
+
+
+Ejemplo de como generar una factura fiscal
+
+		private bool ImprimirFacturaFiscal()
+		{
+			bool   ok = false;
+      string docufiscal, serialfiscal, numerorepz;
+
+			docufiscal = serialfiscal = nurepz = "";
+
+
+			fiscal fis     = new fiscal("BIXOLON30","1");
+
+			fis.referencia = misvariables.referencia;
+			fis.rifoci     = "V17234670";
+			fis.nomcli     = "MANUEL PEREZ";
+			fis.dircli     = "PUERTO LA CRUZ";
+			fis.tlfcli     = "34561200";
+			fis.vendedor   = "ANAMARIA";
+			fis.condipago  = "CONTADO";
+			fis.totaldoc   = Convert.ToDecimal(texTotalFactura.Text);
+			fis.fechavence = emision.AddDays(diasvence);
+			fis.dtDetalle  = dtDocFiscal;
+			fis.dtPagos    = null;
+			fis.cajero     = misvariables.user;
+			fis.estacion   = misvariables.station;
+			fis.mensajePie = misvariables.mensajeTicketFiscal;
+
+			ok             = fis.GeneraFactura();
+
+			if ( ok )
+			{
+				serialfiscal = fis.NumSerial(true).Trim();
+				docufiscal   = fis.UltNumFactura(false).Trim();
+				numerorepz   = fis.UltNumRepZ(false).Trim();
+			}
+			else
+			{
+				DialogResult SiNo;
+
+				SiNo = MessageBox.Show("¿ La factura fiscal fue emitida ?","Conforme",
+			                       	   MessageBoxButtons.YesNo,MessageBoxIcon.Question,
+			                       	   MessageBoxDefaultButton.Button2);
+
+				ok   = (SiNo == DialogResult.Yes);
+			}
+
+			return ok;
+		}
