@@ -15,10 +15,10 @@ Lenguaje: C# .Net framework 4.0
 Desarrollado inicialmente para el mercado Venezolano, además ha sido probado satisfactoriamente en impresoras fiscales en Panamá
 
 
-Ejemplo de como generar una factura fiscal
+# Ejemplo de como generar una factura fiscal
 
-private bool ImprimirFacturaFiscal()
-{
+	private bool ImprimirFacturaFiscal()
+	{
 	bool   ok = false;
 	string docufiscal, serialfiscal, numerorepz;
 
@@ -75,19 +75,21 @@ private bool ImprimirFacturaFiscal()
 	}
 
 	return ok;
-}
-
-
-Ejemplo de como emitir un Reporte X
-
-void BtnReporteXClick(object sender, EventArgs e)
-{
-	bool ok = false;
-
-	ok = fis.ReporteX();
-
-	if (!ok)
-	{
-		// ...mensaje...
 	}
-}
+
+
+# Ejemplo de como emitir un Reporte X
+
+	void BtnReporteXClick(object sender, EventArgs e)
+	{
+		bool ok = false;
+
+		ok = fis.ReporteX();
+
+		if (!ok)
+		{
+			// ...mensaje...
+		}
+	}
+
+
