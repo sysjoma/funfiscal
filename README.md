@@ -1,21 +1,21 @@
 # funfiscal
-driver para manejo de impresoras fiscales: hasar, bematech, pnp, y modelos the factory
+driver para manejo de impresoras fiscales hasar, bematech, pnp, y modelos the factory.  Genera lo siguiente: Facturas, Notas de crédito, Reporte X, Reporte Z y documentos no fiscales.  Permite capturar los datos del reporte Z.
 
-Genera lo siguientes documentos:
-- Facturas.
-- Notas de crédito.
-- Reporte X.
-- Reporte Z.
-- Documentos no fiscales.
+Ha sido probado en impresoras fiscales de Venezuela y Panamá.
 
-Cuenta con una función para capturar los datos del reporte Z.
+# Especificaciones técnicas
+- IDE de desarrollo SharpDevelop 5.1 RC.
+- .NET Framework 4.0.
 
-Lenguaje: C# .Net framework 4.0
+# Licencia
+Licencia open source.
 
-Desarrollado inicialmente para el mercado Venezolano, además ha sido probado satisfactoriamente en impresoras fiscales en Panamá
+# Contacto
+Desarrollado por José Alemán
+sysjoma@gmail.com
 
 
-# Ejemplo de como generar una factura fiscal
+Ejemplo de como generar una factura fiscal
 
 	private bool ImprimirFacturaFiscal()
 	{
@@ -78,7 +78,7 @@ Desarrollado inicialmente para el mercado Venezolano, además ha sido probado sa
 	}
 
 
-# Ejemplo de como emitir un Reporte X
+Ejemplo de como emitir un Reporte X
 
 	void BtnReporteXClick(object sender, EventArgs e)
 	{
